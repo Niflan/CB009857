@@ -1,0 +1,1053 @@
+
+
+
+
+
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: #64A183;
+ color: #fff;
+ border: 6px solid #28644D ;
+ height:55px;
+ font-family: 'Roboto Condensed', sans-serif;
+li-decoration
+ 
+}
+.nav-links a {
+ color: #fff;
+ text-decoration: none;
+
+}
+
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+
+
+}
+.menu li:hover {
+ background-color:#58C86D ;
+ border-radius: 10px;
+ transition: 0.1s ease;
+}
+.menu li {
+ padding: 5px 14px;
+ 
+}
+
+.services {
+ position: relative; 
+}
+.dropdown {
+ background-color: #64A183;
+ padding: 1em 0;
+ position: absolute; 
+ display: none;
+ border-radius: 8px;
+ top: 25px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width:150px;
+ text-align: center;
+ 
+}
+.dropdown li:hover {
+ background-color: #58C86D ;
+ border-radius:10px;
+}
+.services:hover .dropdown {
+ display: block;
+}
+ 	
+
+		#hText {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size:100px;
+  width:100%;
+  color:black;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+#mImage img{
+	width:1330px;
+	height:600px;
+	
+}
+
+ #BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 70px;
+	 height:500px;
+	 border-radius:20px;
+ }
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:380px;
+		   width:300px;
+		   padding:75px 30px 10px 50px;
+		  border-radius:40px;
+	   }
+	   #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		  
+		   font-style:italic;
+		   font-weight:bold;
+		   padding:15px;
+		 text-decoration:2px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   color:white;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:15px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 20px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 350px;
+			
+			 color:white;
+			 
+	   }
+	   #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:380px;
+		   max-width:350px;
+		   padding:90px 30px 00px 40px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:320px;
+		   padding:50px 30px 10px 30px;
+		  border-radius:20px;
+	   }
+      .button {
+        display: block;
+        padding: 10px 20px;
+		font-size:20px;
+        text-align: center;
+        text-decoration: none;
+		min-height:20px;
+		max-width:200px;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+      }
+	   #back a{
+	 font-weight:bold;
+	 font-size:18px;
+	 text-align: right;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+		padding:20px 40px 25px 50px;
+		border-radius:100px;
+
+	}
+	 .footer-bg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    position: absolute;
+    bottom:0px 0;
+    left: px;
+    right: 0px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 0px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+padding:0px 0 0 30px;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 30px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+	  
+
+
+
+
+input[type=checkbox]{
+ display: none;
+} 
+
+
+.hamburger {
+ display: none;
+ font-size: 24px;
+ user-select: none;
+ padding-right:50px;
+}
+
+
+@media (min-width: 50px) and (max-width: 450px)  {
+.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top: 30px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+ #back a{
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align: justify;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+
+		padding:10px 20px 10px 40px;
+		border-radius:70px;
+
+	}
+	
+		#hText {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size:100px;
+  width:100%;
+  color:black;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+	#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:1200px;
+	 width:100%;
+	 border-radius:20px;
+ }
+ 
+#mImage img{
+	width:420px;
+	height:600px;
+	
+}
+
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:300px;
+		   width:250px;
+		   padding:50px 30px 10px 10px;
+		  
+	   }
+	    #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		   font-color:white;
+		   font-style:italic;
+		   font-weight:bold;
+		    padding: 5px 0px 0px 50px;
+		 text-decoration:2px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   padding:15px;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:12px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 00px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 20px;
+			width:75%;
+			 color:white;
+			 
+	   }
+	    #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:380px;
+		   max-width:350px;
+		   padding:20px 30px 00px 10px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:280px;
+		   padding:50px 30px 10px 10px;
+		  border-radius:20px;
+	   }
+	   		#hText {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:white;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+
+}
+
+@media (min-width: 451px) and (max-width: 644px){
+.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top:  0px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+ #back a{
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align: justify;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+
+		padding:10px 20px 10px 40px;
+		border-radius:70px;
+
+	}
+	#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:1700px;
+	 width:100%;
+	 border-radius:20px;
+ }
+       .button {
+         background-color: #7aa8b7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+      }
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:450px;
+		   width:250px;
+		   padding:50px 30px 10px 20px;
+		  
+	   }
+	    #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		   font-color:white;
+		   font-style:italic;
+		   font-weight:bold;
+		    padding: 5px 0px 0px 50px;
+		 text-decoration:2px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   padding:15px;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:13px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 00px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 20px;
+			width:95%;
+			 color:white;
+			 
+	   }
+	    #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:550px;
+		   max-width:350px;
+		   padding:110px 30px 00px 10px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:320px;
+		   padding:50px 30px 10px 10px;
+		  border-radius:20px;
+	   }
+	   	   		#hText {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:White;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+#mImage img{
+	width:750px;
+	height:600px;
+	
+}
+}
+@media (min-width: 645px) and (max-width: 750px){
+	.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top:  0px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+ #back a{
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align: justify;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+
+		padding:10px 20px 10px 40px;
+		border-radius:70px;
+
+	}
+	#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:800px;
+	 width:100%;
+	 border-radius:20px;
+ }
+       .button {
+         background-color: #7aa8b7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+      }
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:450px;
+		   width:250px;
+		   padding:50px 30px 10px 20px;
+		  
+	   }
+	    #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		   font-color:white;
+		   font-style:italic;
+		   font-weight:bold;
+		    padding: 5px 0px 0px 50px;
+		 text-decoration:2px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   padding:15px;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:13px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 00px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 20px;
+			width:95%;
+			 color:white;
+			 
+	   }
+	    #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:550px;
+		   max-width:350px;
+		   padding:150px 30px 00px 10px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:320px;
+		   padding:50px 30px 10px 10px;
+		  border-radius:20px;
+	   }
+	   	   		#hText {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:White;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+#mImage img{
+	width:750px;
+	height:600px;
+	
+}
+}
+@media (min-width: 751px) and (max-width: 999px){
+		.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top: 30px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+ #back a{
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align: justify;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+
+		padding:10px 20px 10px 40px;
+		border-radius:70px;
+
+	}
+	  .button {
+         background-color: #7aa8b7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+      }
+	#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:600px;
+	 width:100%;
+	 border-radius:20px;
+ }
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:300px;
+		   width:250px;
+		   padding:50px 30px 10px 20px;
+		  
+	   }
+	     #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		   font-color:white;
+		   font-style:italic;
+		   font-weight:bold;
+		    padding: 5px 0px 0px 50px;
+		 text-decoration:2px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   padding:15px;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:12px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 00px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 20px;
+			width:100%;
+			 color:white;
+			 
+	   }
+	    #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:450px;
+		   max-width:350px;
+		   padding:20px 30px 00px 40px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:320px;
+		   padding:50px 30px 10px 30px;
+		  border-radius:20px;
+	   }
+	   	   		#hText {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:white;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+#mImage img{
+	width:750px;
+	height:600px;
+	
+}
+}
+@media (min-width: 1000px) and (max-width: 1075px) {
+	.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top: 30px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+	#hText {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:white;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+}
+#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:650px;
+	 width:100%;
+	 border-radius:20px;
+ }
+}
+@media (min-width: 1080px) and (max-width: 1280px) {
+	
+ #back a{
+	 font-weight:bold;
+	 font-size:15px;
+	 text-align: justify;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+
+		padding:10px 20px 10px 40px;
+		border-radius:70px;
+
+	}
+	  .button {
+         background-color: #7aa8b7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+      }
+	#BG{
+	 background-color:#64A183;
+	 margin:00px 70px 50px 00px;
+	 height:500px;
+	 width:100%;
+	 border-radius:20px;
+ }
+ #Image1{
+		   float:left;
+		    
+	   }
+	   #Image1 img{
+		    display:block;	  
+
+		  height:300px;
+		   width:250px;
+		   padding:50px 30px 10px 20px;
+		  
+	   }
+	    #bgH{
+		    display: inline-block;
+			 background-color:black;
+		   font-size:15px;
+		   font-color:white;
+		   font-style:italic;
+		   font-weight:bold;
+		    padding: 5px 0px 0px 50px;
+		 text-decoration:6px underline black  ;
+	   }
+	   #HText{
+		   font-family: 'Quicksand', sans-serif;
+		   font-size:25px;
+		   text-align:justify;
+		   padding:15px;
+	   }
+	   #text{
+		   text-align:justify;
+		 font-family: 'Rubik', sans-serif,arial,helvetica;
+		   font-size:14px;
+		   word-spacing:05px;
+		   padding: 5px 0px 0px 00px;
+		   line-spacing:5px;
+		    margin: 00px 50px 0px 20px;
+			width:100%;
+			 color:white;
+			 
+	   }
+	    #Image2{
+		   float:left;
+		    
+	   }
+	   #Image2 img{
+		    display:block;	  
+		  height:400px;
+		   max-width:350px;
+		   padding:20px 30px 00px 40px;
+		  
+	   }
+	   #Image3{
+		   float:left;
+		    
+	   }
+	   #Image3 img{
+		     
+		   display:block;	  
+
+		  height:400px;
+		   width:320px;
+		   padding:50px 30px 10px 30px;
+		  border-radius:20px;
+	   }
+	   	   		#hText {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size:75px;
+  width:75%;
+  color:black;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive, arial ,sans-sherif;
+
+}
+#mImage img{
+	width:1100px;
+	height:600px;
+	
+}
+}
