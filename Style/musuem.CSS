@@ -11,6 +11,29 @@
 	height:300px;
 	
 }
+
+	#Ccolumn1 {
+  float: left;
+  width: 50%;
+  padding: 200px 10px 10px 10px;
+   box-sizing: border-box;
+}
+	#Crow1 {
+		margin: 0 -5px;
+	}
+	#Crow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: justify;
+  background-color: #C2ECD2;
+    font-size:16px;
+	font-family: 'Rubik', sans-serif,arial,helvetica;
+}
   #paragraph{
 		   text-align:justify;
 		   font-family:sans-sherif,arial;
