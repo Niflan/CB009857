@@ -1,0 +1,248 @@
+
+
+  #body{ 
+			margin: 0;
+			padding: 10px;
+			line-height: 3.5px;
+			
+		}
+		#nText {
+			font-weight:bold;
+			font-family: 'Dancing Script', cursive;
+			font-size:90px;
+			
+			position:absolute;
+			top:50%;
+			left:10.5%;
+			
+			color:transparent;
+			background-image:linear-gradient(white,white);
+			background-repeat:no-repeat;
+			-webkit-background-clip:text;
+			background-position:-750px 0;
+			animation:backcolor 5s linear infinite alternate;
+ 
+}
+		 .slider{ 
+	width:100%;
+	height:600px;
+	background:url(SlideshareImages/a.webp);
+	margin:0px 0px 0px 0px;
+	animation:slide 20s infinite;
+	 background-repeat: repeat-x;;
+
+
+}
+@keyframes slide{
+	25%{
+		background:url(SlideshareImages/a.webp);
+	}
+	50%{
+		background:url(SlideshareImages/c.webp) ;
+	}
+	75%{
+		background:url(SlideshareImages/img_01.jpg);
+	}
+}
+  #paragraph{
+		   text-align:justify;
+		   font-family:sans-sherif,arial;
+		   font-size:17px;
+		   font-weight:bold;
+		   word-spacing:10px;
+		    padding: 10px 10px 0px 150px;
+			width:75%;
+			color:black;
+
+
+	   }
+	    #map{
+
+		   padding: 30px 000px  0px 00px;
+		   clear:both;
+		   
+	   }
+	   
+		   #back a{
+	 font-weight:bold;
+	 font-size:18px;
+	 text-align: right;
+		text-decoration:none;
+		color:black;
+		background: #64A183;
+		padding:20px 40px 25px 50px;
+		border-radius:100px;
+
+	}
+	 .footer-bg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    position: absolute;
+    bottom:0px 0;
+    left: px;
+    right: 0px;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 0px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+padding:0px 0 0 30px;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 30px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color:#609C7E ;
+  border-radius:15px
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 600px) {
+	#nText {
+			font-weight:bold;
+			font-family: 'Dancing Script', cursive;
+			font-size:50px;
+			
+			position:absolute;
+			top:40%;
+			left:10.5%;
+			
+			color:transparent;
+			background-image:linear-gradient(white,white);
+			background-repeat:no-repeat;
+			-webkit-background-clip:text;
+			background-position:-750px 0;
+			animation:backcolor 5s linear infinite alternate;
+ 
+}
+	 #paragraph{
+		   text-align:justify;
+		   font-family:sans-sherif,arial;
+		   font-size:15px;
+		   font-weight:bold;
+		   word-spacing:10px;
+		    padding: 10px 10px 0px 20px;
+			width:75%;
+			color:black;
+	 }
+	  .slider{ 
+	width:100%;
+	height:400px;
+	background:url(SlideshareImages/a.webp);
+	margin:0px 0px 0px 0px;
+	animation:slide 20s infinite;
+	
+
+}
+
+  .column {
+    width: 100%;
+  }
+   #map{
+		   overflow:hidden;
+padding-bottom:60%;
+position:relative;
+height:120px;
+	   }
+	   #map iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+}
