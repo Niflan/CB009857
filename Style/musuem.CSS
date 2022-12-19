@@ -14,7 +14,7 @@ button {
 
 	.container button:hover {
 		background: #64A183;
-		//color:black;
+		
 		font-weight: bold;
 		width:50%;
 	}
@@ -30,7 +30,7 @@ button {
 	padding: 10px 00px 00px 100px;
 	box-sizing: border-box;
 }
-p{
+#card2 p{
 	text-align:center;
 	color:white;
 }
