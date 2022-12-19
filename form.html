@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a site is about Ticket Booking Application">
+    <title>Ticket Booking</title>
+    <link rel="icon" type="image/png" href="Images/favicon.png">
+    <link rel="stylesheet" href="Style/form.css">
+    <script src=" Js/main.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class=" bg-color">
+            <div class="title">Ticket Booking</div>
+
+            <form action="#" name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="user-details">
+                    <div class=" input-box">
+                        <span class="details">When are you Coming</span>
+                        <input type="date" id="date" name="name" placeholder="" required>
+                    </div>
+                    <div class=" input-box">
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+                    </div>
+                    <div class="input-box">
+                        <label for="email"> Email:</label>
+                        <input type="email" id="email" name="name" placeholder="abc@gmail.com" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Confirm Email:</label>
+                        <input type="email" id="email" name="name" placeholder="abc@gmail.com" required>
+                    </div>
+                    <div class=" input-box">
+                        <label for="contact">Contact No:</label>
+                        <input type="text" id="contact" name="name" placeholder="123 4455 6677" required>
+                    </div>
+
+
+                    <div class=" input-box">
+                        <label>Gender</label>
+                        <select name="name" id="gender">
+                            <option value="">Please select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+
+                        </select>
+                    </div>
+                </div>
+            
+           
+                <div class="user-details1">
+                    <div class=" input-box">
+                        <span class="details">SL Adult<h5>Above 14 Years</h5></span>
+                        <input type="number" id="SL Adult" name="size">
+                        <select name="hrs" id="hrs" class="hrs">
+                            <option value="">Please select</option>
+                            <option value="3Hrs" selected>3Hrs</option>
+                            <option value="12Hrs">12Hrs</option>
+                            <option value="24Hrs">24Hrs</option>
+
+                        </select>
+                    </div>
+
+                    <div class=" input-box">
+                        <span class="details">SL Child<h5>Between 4-14 Years</h5></span>
+                        <input type="number" id="SL Child" name="size">
+
+                        <select name="hrs" id="hrs" class="hrs">
+                            <option value="">Please select</option>
+                            <option value="3Hrs" selected>3Hrs</option>
+                            <option value="12Hrs">12Hrs</option>
+                            <option value="24Hrs">24Hrs</option>
+                        </select>
+                    </div>
+                    <div class=" input-box">
+                        <span class="details">Foreinger Adult<h5>Above 14 Years</h5></span>
+                        <input type="number" id="Foreinger Adult" name="size">
+                        <select name="hrs" id="foreigner-ticket" class="hrs">
+                            <option value="">Please select</option>
+                            <option value="3Hrs" selected>3Hrs</option>
+                            <option value="12Hrs">12Hrs</option>
+                            <option value="24Hrs">24Hrs</option>
+
+                        </select>
+                    </div>
+                    <div class=" input-box">
+                        <span class="details">Foreinger Child<h5>Between 4-14 Years</h5></span>
+                        <input type="number" id="Foreinger Child" name="size">
+                        <select name="hrs" id="foreigner-ticket" class="hrs">
+                            <option value="">Please select</option>
+                            <option value="3Hrs" selected>3Hrs </option>
+                            <option value="12Hrs">12Hrs</option>
+                            <option value="24Hrs">24Hrs</option>
+
+                        </select>
+                    </div>
+
+                    <div class=" input-box">
+                        <span class="details">Infant(Free of Charges for Infants)<h5>Below 4 Years</h5></span>
+                        <input type="number" />
+                    </div>
+                </div>
+
+                <br />
+
+                <fieldset class="costBox">
+                    <label> Current Ticket Cost</label>
+                    <p id="cost">£00.00</p>
+                </fieldset>
+                <div class="details">
+                    <div class="input-box">
+                        <div class="button">
+                            <input type="button" id="add-to-order" value="Add to Order" />
+                            <input type="button" id="add-to-favourites" value="Add to Favourite" />
+                        </div>
+                    </div>
+                </div>
+                <fieldset class="costBox">
+                    <label> Overall Ticket Cost</label>
+                    <p id="overall-cost">£00.00</p>
+                </fieldset>
+                <div class="details">
+                    <div class="input-box">
+                        <div class="button">
+                            <input type="button" id="order-favourites" value="Order Favourite" />
+                            <input type="submit" id="place-order" value="Place Order" />
+                            <input type="button" id="check-loyalty" value="Check Loyalty" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+    </div>
+      
+    </div>
+
+   
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+   
+
+</body>
+
+</html>
