@@ -26,9 +26,9 @@ body {
 
 .container .title{
     font-size:25px;
-    font-weight:500;
+    font-weight:bold;
     position:relative;
-    color:aquamarine;
+    color:white;
 }
     .container .title::before {
         content: '';
