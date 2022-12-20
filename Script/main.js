@@ -174,6 +174,18 @@ function orderFavourites() {
     localStorage.removeItem("favourite");
 
 }
+let noOfTicket = SlAd + SlCh + FoAd + FoCh + InF;
+btnLoyalty.addEventListener("click", addLoyalty);
+function addLoyalty() {
+
+    if (noOfTicket > 3) {
+        let loyaltypoints = noOfTicket * 15;
+        alert('You have gained ${loyaltypoints} Loyalty points');
+        localStorage.setItem('Loyalty', loyaltypoints);
+    } else {
+        alert('You Have not received any Loyalty points');
+    }
+    }
 
 let mybutton = document.getElementById("myBtn");
 
